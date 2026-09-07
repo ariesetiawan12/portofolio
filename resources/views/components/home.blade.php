@@ -16,10 +16,9 @@
             </p>
 
             <h1>
-                Arie dan azit
-                
+                Arie
+                <span>Setiawan.</span>
             </h1>
-            
 
             <h2>
                 Web Developer
@@ -92,7 +91,7 @@
             <div class="profile-card">
 
                 <img
-                    src="{{ asset('images/ariazit.png') }}"
+                    src="{{ asset('images/ari.jpeg') }}"
                     alt="Foto Arie Setiawan"
                 >
 

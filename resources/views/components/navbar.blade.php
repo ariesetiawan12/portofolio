@@ -4,7 +4,7 @@
     <div class="container nav-container">
 
         <a href="#home" class="logo">
-            SEOLEV&AZSOP<span>.</span>
+            Arie Setiawan<span>.</span>
         </a>
 
         <div class="nav-menu">
