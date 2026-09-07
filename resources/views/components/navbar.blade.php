@@ -4,7 +4,7 @@
     <div class="container nav-container">
 
         <a href="#home" class="logo">
-            SEOLEV<span>.</span>
+            SEOLEV&AZSOP<span>.</span>
         </a>
 
         <div class="nav-menu">
