@@ -92,7 +92,7 @@
             <div class="profile-card">
 
                 <img
-                    src="{{ asset('images/ari.jpeg') }}"
+                    src="{{ asset('images/ariazit.png') }}"
                     alt="Foto Arie Setiawan"
                 >
 
