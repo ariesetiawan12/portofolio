@@ -1,110 +1,49 @@
-```blade
-<section id="contact">
 
-    <div class="section-title">
+<section class="section contact-section" id="contact">
 
-        <h2>Hubungi Saya</h2>
-
-        <p>
-            Mari terhubung dan berdiskusi bersama
-        </p>
-
-    </div>
-
-
-    <div class="contact">
+    <div class="container">
 
         <div class="contact-box">
 
-            <h3>
-                Let's Connect 🚀
-            </h3>
+            <div>
 
-            <p>
-                Jangan ragu untuk menghubungi saya melalui
-                sosial media berikut.
-            </p>
+                <span class="contact-label">
+                    04 — CONTACT
+                </span>
 
+                <h2>
+                    Let's create something
+                    <span>great.</span>
+                </h2>
 
-            <div class="social-media">
-
-
-                <!-- WHATSAPP -->
-
-                <a
-                    href="https://wa.me/082217405017"
-                    target="_blank"
-                    class="social whatsapp"
-                >
-
-                    <span class="social-icon">
-                        📱
-                    </span>
-
-                    <span>
-                        WhatsApp
-                    </span>
-
-                </a>
-
-
-                <!-- INSTAGRAM -->
-
-                <a
-                    href="https://instagram.com/seolev1"
-                    target="_blank"
-                    class="social instagram"
-                >
-
-                    <span class="social-icon">
-                        📷
-                    </span>
-
-                    <span>
-                        Instagram
-                    </span>
-
-                </a>
-
-
-                <!-- GITHUB -->
-
-                <a
-                    href="https://github.com/USERNAME"
-                    target="_blank"
-                    class="social github"
-                >
-
-                    <span class="social-icon">
-                        💻
-                    </span>
-
-                    <span>
-                        GitHub
-                    </span>
-
-                </a>
-
-
-               
-
-
-                </a>
-
+                <p>
+                    Punya ide project atau ingin berdiskusi?
+                    Jangan ragu untuk menghubungi saya.
+                </p>
 
             </div>
 
+            <div class="contact-links">
 
-            <div class="contact-info">
+                <a href="mailto:ynwa.syid@gmail.com">
+                    <small>EMAIL</small>
+                    <strong>ynwa.syid@gmail.com</strong>
+                </a>
 
-                <p>
-                    📧 Email:
-                    <strong>arisetiawan@gmail.com</strong>
-                </p>
+                <a href="https://www.instagram.com/seolev1/" target="_blank" rel="noopener noreferrer">
+                    <small>INSTAGRAM</small>
+                    <strong>seolev1</strong>
+                </a>
 
-                <p>
-                    📍 Medan, Indonesia
-                </p>
+                <a href="https://github.com/ariesetiawan12" target="_blank" rel="noopener noreferrer">
+                    <small>GITHUB</small>
+                    <strong>ariesetiawan12</strong>
+                </a>
+
+                <a href="https://wa.me/082217405017" target="_blank" rel="noopener noreferrer">
+                    <small>WHATSAPP</small>
+                    <strong>Chat via WhatsApp</strong>
+                </a>
 
             </div>
 
@@ -113,4 +52,3 @@
     </div>
 
 </section>
-```

@@ -1,91 +1,52 @@
+<section class="section skills-section" id="skills">
 
-<section id="skills">
+    <div class="container">
 
-    <div class="section-title">
+        <div class="section-heading center">
 
-        <h2>
-            Keahlian
-        </h2>
+            <span>02 — MY SKILLS</span>
 
-        <p>
-            Teknologi yang saya gunakan
-        </p>
-
-    </div>
-
-
-    <div class="skills">
-
-
-        <div class="skill">
-
-            <div class="skill-icon">
-                💻
-            </div>
-
-            <h3>
-                Laravel
-            </h3>
+            <h2>Keahlian</h2>
 
             <p>
-                Web Development
+                Teknologi yang saya gunakan untuk membangun
+                solusi digital.
             </p>
 
         </div>
 
+        <div class="skills-grid">
 
-        <div class="skill">
-
-            <div class="skill-icon">
-                🐘
+            <div class="skill-card">
+                <div class="skill-icon">L</div>
+                <h3>Laravel</h3>
+                <p>Web Development</p>
+                <span>PHP Framework</span>
             </div>
 
-            <h3>
-                PHP
-            </h3>
-
-            <p>
-                Backend Development
-            </p>
-
-        </div>
-
-
-        <div class="skill">
-
-            <div class="skill-icon">
-                📱
+            <div class="skill-card">
+                <div class="skill-icon">P</div>
+                <h3>PHP</h3>
+                <p>Backend Development</p>
+                <span>Programming</span>
             </div>
 
-            <h3>
-                Flutter
-            </h3>
-
-            <p>
-                Mobile Development
-            </p>
-
-        </div>
-
-
-        <div class="skill">
-
-            <div class="skill-icon">
-                🗄️
+            <div class="skill-card">
+                <div class="skill-icon">F</div>
+                <h3>Flutter</h3>
+                <p>Mobile Development</p>
+                <span>Dart</span>
             </div>
 
-            <h3>
-                MySQL
-            </h3>
-
-            <p>
-                Database Management
-            </p>
+            <div class="skill-card">
+                <div class="skill-icon">M</div>
+                <h3>MySQL</h3>
+                <p>Database</p>
+                <span>Database Management</span>
+            </div>
 
         </div>
-
 
     </div>
 
 </section>
-

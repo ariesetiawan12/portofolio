@@ -1,29 +1,50 @@
+<section class="section about-section" id="about">
 
-<section id="about">
+    <div class="container">
 
-    <div class="section-title">
+        <div class="section-heading">
+            <span>01 — ABOUT ME</span>
+            <h2>Tentang Saya</h2>
+        </div>
 
-        <h2>
-            Tentang Saya
-        </h2>
+        <div class="about-grid">
 
-        <p>
-            Mengenal saya lebih dekat
-        </p>
+            <div class="about-number">
+                <span>01</span>
+            </div>
 
-    </div>
+            <div class="about-content">
 
+                <p class="about-lead">
+                    Saya adalah mahasiswa Sistem Informasi yang memiliki
+                    passion dalam menciptakan solusi digital yang modern,
+                    sederhana, dan mudah digunakan.
+                </p>
 
-    <div class="about">
+                <p>
+                    Saya memiliki pengalaman dalam pengembangan website
+                    menggunakan PHP dan Laravel, aplikasi mobile menggunakan
+                    Flutter, pengelolaan database MySQL dan SQLite, serta
+                    desain UI/UX menggunakan Figma.
+                </p>
 
-        <p>
-            Saya merupakan mahasiswa Sistem Informasi yang tertarik
-            dalam dunia teknologi dan pengembangan sistem informasi.
-            Saya memiliki pengalaman dalam membuat website menggunakan
-            PHP dan Laravel, aplikasi mobile menggunakan Flutter,
-            pengelolaan database MySQL dan SQLite, serta desain UI/UX
-            menggunakan Figma.
-        </p>
+                <div class="about-info">
+
+                    <div>
+                        <small>EDUCATION</small>
+                        <strong>STMIK Triguna Dharma</strong>
+                    </div>
+
+                    <div>
+                        <small>FOCUS</small>
+                        <strong>Web & Mobile Development</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
