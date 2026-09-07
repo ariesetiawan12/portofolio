@@ -16,13 +16,10 @@
             </p>
 
             <h1>
-                Arie
-                <span>Setiawan.</span>
+                Arie dan azit
+                
             </h1>
-            h1>
-                Azit
-                <span>Muhammadsopyan.</span>
-            </h1>
+            
 
             <h2>
                 Web Developer
