@@ -1214,7 +1214,6 @@ footer {
     }
 
 }
-
 /* =========================================================
    MY JOURNEY / MOTIVATION
    ========================================================= */
@@ -1224,22 +1223,18 @@ footer {
     overflow: hidden;
 }
 
-/* HEADING */
-
-.motivation-section .section-heading {
-    margin-bottom: 20px;
-}
+/* INTRO */
 
 .motivation-intro {
-    max-width: 680px;
-    margin: 0 auto 45px;
+    max-width: 650px;
+    margin: 0 auto 35px;
     text-align: center;
 }
 
 .motivation-intro p {
     color: var(--text);
-    font-size: 15px;
-    line-height: 1.8;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 /* =========================================================
@@ -1249,7 +1244,7 @@ footer {
 .motivation-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
+    gap: 18px;
 }
 
 /* =========================================================
@@ -1258,10 +1253,10 @@ footer {
 
 .motivation-card {
     position: relative;
-    height: 330px;
+    height: 240px;
     overflow: hidden;
 
-    border-radius: 18px;
+    border-radius: 15px;
     border: 1px solid var(--border);
 
     background: var(--card);
@@ -1269,12 +1264,12 @@ footer {
     cursor: pointer;
 
     transition:
-        transform .4s ease,
-        border-color .4s ease,
-        box-shadow .4s ease;
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
 }
 
-/* GAMBAR */
+/* FOTO */
 
 .motivation-card img {
     width: 100%;
@@ -1283,13 +1278,12 @@ footer {
     display: block;
 
     object-fit: cover;
+    object-position: center;
 
-    transition:
-        transform .6s ease,
-        filter .4s ease;
+    transition: transform .5s ease;
 }
 
-/* GRADIENT DI ATAS FOTO */
+/* DARK OVERLAY */
 
 .motivation-card::after {
     content: "";
@@ -1299,39 +1293,36 @@ footer {
 
     background: linear-gradient(
         to top,
-        rgba(7, 17, 31, .96) 0%,
-        rgba(7, 17, 31, .60) 35%,
-        rgba(7, 17, 31, .10) 70%,
-        transparent 100%
+        rgba(7, 17, 31, .95),
+        rgba(7, 17, 31, .35),
+        transparent
     );
 
     z-index: 1;
-
-    transition: .4s ease;
 }
 
 /* =========================================================
-   NOMOR + TEXT
+   TEXT FOTO
    ========================================================= */
 
 .motivation-overlay {
     position: absolute;
 
-    left: 24px;
-    right: 24px;
-    bottom: 22px;
+    left: 18px;
+    right: 18px;
+    bottom: 17px;
 
     z-index: 2;
 }
 
 .motivation-overlay span {
-    display: inline-block;
+    display: block;
 
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 
     color: var(--primary-light);
 
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
 
     letter-spacing: 2px;
@@ -1344,17 +1335,16 @@ footer {
 
     font-family: 'Space Grotesk', sans-serif;
 
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .motivation-overlay p {
-    margin: 6px 0 0;
+    margin: 4px 0 0;
 
     color: #cbd5e1;
 
-    font-size: 12px;
-    line-height: 1.6;
+    font-size: 11px;
 }
 
 /* =========================================================
@@ -1362,54 +1352,15 @@ footer {
    ========================================================= */
 
 .motivation-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 
-    border-color: rgba(79, 140, 255, .5);
+    border-color: rgba(79, 140, 255, .45);
 
-    box-shadow:
-        0 25px 60px rgba(0, 0, 0, .35);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .3);
 }
 
 .motivation-card:hover img {
-    transform: scale(1.08);
-
-    filter: brightness(.85);
-}
-
-.motivation-card:hover::after {
-    background: linear-gradient(
-        to top,
-        rgba(7, 17, 31, 1) 0%,
-        rgba(7, 17, 31, .55) 40%,
-        rgba(7, 17, 31, .08) 75%,
-        transparent 100%
-    );
-}
-
-/* =========================================================
-   GARIS AKSEN DI ATAS CARD
-   ========================================================= */
-
-.motivation-card::before {
-    content: "";
-
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
-    width: 0;
-    height: 3px;
-
-    background: var(--primary);
-
-    z-index: 3;
-
-    transition: width .4s ease;
-}
-
-.motivation-card:hover::before {
-    width: 100%;
+    transform: scale(1.05);
 }
 
 /* =========================================================
@@ -1417,26 +1368,19 @@ footer {
    ========================================================= */
 
 .motivation-quote {
-    max-width: 760px;
+    max-width: 700px;
 
-    margin: 55px auto 0;
+    margin: 40px auto 0;
 
-    padding: 32px 40px;
+    padding: 25px 30px;
 
     text-align: center;
 
     border: 1px solid var(--border);
 
-    border-radius: 18px;
+    border-radius: 15px;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(16, 30, 48, .9),
-            rgba(12, 24, 40, .7)
-        );
-
-    position: relative;
+    background: rgba(16, 30, 48, .7);
 }
 
 .motivation-quote span {
@@ -1446,42 +1390,25 @@ footer {
 
     font-family: Georgia, serif;
 
-    font-size: 50px;
+    font-size: 40px;
 
     line-height: .6;
 }
 
 .motivation-quote p {
-    margin: 18px 0 0;
+    margin: 15px 0 0;
 
     color: var(--text);
 
-    font-size: 15px;
+    font-size: 14px;
 
-    line-height: 1.8;
+    line-height: 1.7;
 
     font-style: italic;
 }
 
 /* =========================================================
    TABLET
-   ========================================================= */
-
-@media (max-width: 1100px) {
-
-    .motivation-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .motivation-card {
-        height: 300px;
-    }
-
-}
-
-
-/* =========================================================
-   TABLET KECIL
    ========================================================= */
 
 @media (max-width: 900px) {
@@ -1491,50 +1418,36 @@ footer {
     }
 
     .motivation-card {
-        height: 300px;
+        height: 240px;
     }
-
 }
 
-
 /* =========================================================
-MOBILE
+   MOBILE
    ========================================================= */
 
 @media (max-width: 600px) {
 
     .motivation-grid {
         grid-template-columns: 1fr;
-
-        gap: 18px;
+        gap: 15px;
     }
 
     .motivation-card {
-        height: 300px;
-
-        border-radius: 15px;
+        height: 230px;
     }
 
     .motivation-overlay {
-        left: 20px;
-        right: 20px;
-        bottom: 20px;
+        left: 16px;
+        right: 16px;
+        bottom: 15px;
     }
 
     .motivation-overlay h3 {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .motivation-quote {
-        margin-top: 40px;
-
-        padding: 28px 22px;
-
-        border-radius: 15px;
+        padding: 22px 18px;
     }
-
-    .motivation-quote p {
-        font-size: 14px;
-    }
-
 }
