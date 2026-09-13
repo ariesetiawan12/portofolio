@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('title', 'Portfolio Arie Setiawan')
@@ -7,6 +8,9 @@
     @include('components.home')
 
     @include('components.about')
+
+    {{-- Section Foto Penyemangat --}}
+    @include('components.motivation')
 
     @include('components.skills')
 
