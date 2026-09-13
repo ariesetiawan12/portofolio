@@ -23,7 +23,6 @@
                 <img
                     src="{{ asset('images/motivasi1.png') }}"
                     alt="Perjalanan saya"
-                    loading="lazy"
                 >
 
                 <div class="motivation-overlay">
@@ -39,7 +38,6 @@
                 <img
                     src="{{ asset('images/motivasi2.png') }}"
                     alt="Kegiatan saya"
-                    loading="lazy"
                 >
 
                 <div class="motivation-overlay">
@@ -55,7 +53,6 @@
                 <img
                     src="{{ asset('images/motivasi3.png') }}"
                     alt="Pengalaman saya"
-                    loading="lazy"
                 >
 
                 <div class="motivation-overlay">
@@ -71,7 +68,6 @@
                 <img
                     src="{{ asset('images/motivasi4.jpg') }}"
                     alt="Aktivitas saya"
-                    loading="lazy"
                 >
 
                 <div class="motivation-overlay">
@@ -87,7 +83,6 @@
                 <img
                     src="{{ asset('images/motivasi5.png') }}"
                     alt="Momen berharga"
-                    loading="lazy"
                 >
 
                 <div class="motivation-overlay">
@@ -103,7 +98,6 @@
                 <img
                     src="{{ asset('images/motivasi6.png') }}"
                     alt="Perjalanan dan pencapaian saya"
-                    loading="lazy"
                 >
 
                 <div class="motivation-overlay">
