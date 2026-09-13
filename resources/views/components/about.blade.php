@@ -32,7 +32,7 @@
 
                     <div>
                         <small>EDUCATION</small>
-                        <strong>STMIK Triguna Dharma</strong>
+                        <strong>Daring</strong>
                     </div>
 
                     <div>

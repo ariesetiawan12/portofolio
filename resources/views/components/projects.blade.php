@@ -8,10 +8,18 @@
 
             <h2>Project Saya</h2>
 
+            <p>
+                Beberapa project yang saya kerjakan dalam
+                pengembangan web, mobile, dan desain UI/UX.
+            </p>
+
         </div>
+
 
         <div class="projects-grid">
 
+
+            <!-- PROJECT 01 -->
             <article class="project-card">
 
                 <div class="project-image">
@@ -35,7 +43,8 @@
 
                     <p>
                         Sistem ujian berbasis web yang dibangun
-                        menggunakan Laravel dan MySQL.
+                        menggunakan Laravel dan MySQL untuk
+                        mendukung proses ujian secara online.
                     </p>
 
                     <a href="#" class="project-link">
@@ -47,6 +56,7 @@
             </article>
 
 
+            <!-- PROJECT 02 -->
             <article class="project-card">
 
                 <div class="project-image">
@@ -70,7 +80,8 @@
 
                     <p>
                         Aplikasi mobile untuk pengelolaan produk
-                        menggunakan Flutter dan SQLite.
+                        dan pemesanan kopi menggunakan Flutter,
+                        GetX, dan SQLite.
                     </p>
 
                     <a href="#" class="project-link">
@@ -82,6 +93,7 @@
             </article>
 
 
+            <!-- PROJECT 03 -->
             <article class="project-card">
 
                 <div class="project-image">
@@ -105,7 +117,8 @@
 
                     <p>
                         Konsep aplikasi informasi perumahan
-                        berbasis mobile dengan desain modern.
+                        berbasis mobile dengan tampilan modern
+                        dan fokus pada pengalaman pengguna.
                     </p>
 
                     <a href="#" class="project-link">
@@ -115,6 +128,118 @@
                 </div>
 
             </article>
+
+
+            <!-- PROJECT 04 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{{ asset('images/laravel.png') }}"
+                        alt="Portfolio Laravel"
+                    >
+
+                    <div class="project-number">04</div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tag">
+                        LARAVEL · BLADE · CSS
+                    </div>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        Website portfolio pribadi yang dibuat
+                        menggunakan Laravel Blade dengan desain
+                        modern, responsif, dan dark theme.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 05 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{{ asset('images/profil.png') }}"
+                        alt="Upload Profil Siswa"
+                    >
+
+                    <div class="project-number">05</div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tag">
+                        LARAVEL · PHP · IMAGE
+                    </div>
+
+                    <h3>Upload Profil Siswa</h3>
+
+                    <p>
+                        Sistem upload dan pengelolaan foto profil
+                        siswa menggunakan Laravel dan teknologi
+                        pengolahan gambar.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 06 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{{ asset('images/sortir.png') }}"
+                        alt="Sistem Sortir Barang"
+                    >
+
+                    <div class="project-number">06</div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tag">
+                        WEB · DATABASE · SYSTEM
+                    </div>
+
+                    <h3>Sistem Sortir Barang</h3>
+
+                    <p>
+                        Konsep sistem informasi untuk membantu
+                        proses sortir barang berdasarkan tujuan,
+                        wilayah, dan jadwal pengiriman.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
 
         </div>
 
