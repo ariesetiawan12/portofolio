@@ -62,51 +62,6 @@
                 </div>
             </div>
 
-
-            <!-- FOTO 4 -->
-            <div class="motivation-card">
-                <img
-                    src="{{ asset('images/motivasi4.jpg') }}"
-                    alt="Aktivitas saya"
-                >
-
-                <div class="motivation-overlay">
-                    <span>04</span>
-                    <h3>Never Give Up</h3>
-                    <p>Jangan berhenti mencoba.</p>
-                </div>
-            </div>
-
-
-            <!-- FOTO 5 -->
-            <div class="motivation-card">
-                <img
-                    src="{{ asset('images/motivasi5.png') }}"
-                    alt="Momen berharga"
-                >
-
-                <div class="motivation-overlay">
-                    <span>05</span>
-                    <h3>Make Progress</h3>
-                    <p>Langkah kecil tetap berarti.</p>
-                </div>
-            </div>
-
-
-            <!-- FOTO 6 -->
-            <div class="motivation-card">
-                <img
-                    src="{{ asset('images/motivasi6.png') }}"
-                    alt="Perjalanan dan pencapaian saya"
-                >
-
-                <div class="motivation-overlay">
-                    <span>06</span>
-                    <h3>Keep Moving</h3>
-                    <p>Terus melangkah menuju tujuan.</p>
-                </div>
-            </div>
-
         </div>
 
 

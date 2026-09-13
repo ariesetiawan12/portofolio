@@ -1214,8 +1214,10 @@ footer {
     }
 
 }
+
 /* =========================================================
    MY JOURNEY / MOTIVATION
+   3 FOTO - LARGE & ELEGANT
    ========================================================= */
 
 .motivation-section {
@@ -1223,19 +1225,22 @@ footer {
     overflow: hidden;
 }
 
-/* INTRO */
+/* =========================================================
+   INTRO
+   ========================================================= */
 
 .motivation-intro {
-    max-width: 650px;
-    margin: 0 auto 35px;
+    max-width: 680px;
+    margin: 0 auto 45px;
     text-align: center;
 }
 
 .motivation-intro p {
     color: var(--text);
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 15px;
+    line-height: 1.8;
 }
+
 
 /* =========================================================
    FOTO GRID
@@ -1244,8 +1249,9 @@ footer {
 .motivation-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    gap: 25px;
 }
+
 
 /* =========================================================
    FOTO CARD
@@ -1253,23 +1259,32 @@ footer {
 
 .motivation-card {
     position: relative;
-    height: 240px;
+
+    height: 360px;
+
     overflow: hidden;
 
-    border-radius: 15px;
-    border: 1px solid var(--border);
+    border-radius: 22px;
+
+    border: 1px solid rgba(255, 255, 255, .08);
 
     background: var(--card);
 
     cursor: pointer;
 
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, .20);
+
     transition:
-        transform .3s ease,
-        border-color .3s ease,
-        box-shadow .3s ease;
+        transform .45s ease,
+        border-color .45s ease,
+        box-shadow .45s ease;
 }
 
-/* FOTO */
+
+/* =========================================================
+   FOTO
+   ========================================================= */
 
 .motivation-card img {
     width: 100%;
@@ -1280,10 +1295,17 @@ footer {
     object-fit: cover;
     object-position: center;
 
-    transition: transform .5s ease;
+    transform: scale(1);
+
+    transition:
+        transform .7s ease,
+        filter .5s ease;
 }
 
-/* DARK OVERLAY */
+
+/* =========================================================
+   OVERLAY FOTO
+   ========================================================= */
 
 .motivation-card::after {
     content: "";
@@ -1291,15 +1313,43 @@ footer {
     position: absolute;
     inset: 0;
 
-    background: linear-gradient(
-        to top,
-        rgba(7, 17, 31, .95),
-        rgba(7, 17, 31, .35),
-        transparent
-    );
+    background:
+        linear-gradient(
+            to top,
+            rgba(7, 17, 31, .98) 0%,
+            rgba(7, 17, 31, .75) 25%,
+            rgba(7, 17, 31, .20) 60%,
+            rgba(7, 17, 31, .02) 100%
+        );
 
     z-index: 1;
+
+    transition: .5s ease;
 }
+
+
+/* =========================================================
+   AKSEN ATAS
+   ========================================================= */
+
+.motivation-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 4px;
+
+    background: var(--primary);
+
+    z-index: 3;
+
+    transition: width .5s ease;
+}
+
 
 /* =========================================================
    TEXT FOTO
@@ -1308,25 +1358,28 @@ footer {
 .motivation-overlay {
     position: absolute;
 
-    left: 18px;
-    right: 18px;
-    bottom: 17px;
+    left: 25px;
+    right: 25px;
+    bottom: 24px;
 
     z-index: 2;
 }
 
-.motivation-overlay span {
-    display: block;
 
-    margin-bottom: 5px;
+.motivation-overlay span {
+    display: inline-block;
+
+    margin-bottom: 9px;
 
     color: var(--primary-light);
 
-    font-size: 10px;
+    font-size: 11px;
+
     font-weight: 700;
 
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
+
 
 .motivation-overlay h3 {
     margin: 0;
@@ -1335,53 +1388,92 @@ footer {
 
     font-family: 'Space Grotesk', sans-serif;
 
-    font-size: 18px;
+    font-size: 23px;
+
     font-weight: 600;
+
+    letter-spacing: .2px;
 }
 
+
 .motivation-overlay p {
-    margin: 4px 0 0;
+    margin: 7px 0 0;
 
     color: #cbd5e1;
 
-    font-size: 11px;
+    font-size: 13px;
+
+    line-height: 1.6;
 }
+
 
 /* =========================================================
    HOVER
    ========================================================= */
 
 .motivation-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 
-    border-color: rgba(79, 140, 255, .45);
+    border-color: rgba(79, 140, 255, .55);
 
-    box-shadow: 0 15px 35px rgba(0, 0, 0, .3);
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, .40),
+        0 0 30px rgba(79, 140, 255, .08);
 }
+
 
 .motivation-card:hover img {
-    transform: scale(1.05);
+    transform: scale(1.08);
+
+    filter: brightness(.88);
 }
+
+
+.motivation-card:hover::before {
+    width: 100%;
+}
+
+
+.motivation-card:hover::after {
+    background:
+        linear-gradient(
+            to top,
+            rgba(7, 17, 31, 1) 0%,
+            rgba(7, 17, 31, .68) 25%,
+            rgba(7, 17, 31, .15) 65%,
+            transparent 100%
+        );
+}
+
 
 /* =========================================================
    QUOTE
    ========================================================= */
 
 .motivation-quote {
-    max-width: 700px;
+    max-width: 780px;
 
-    margin: 40px auto 0;
+    margin: 55px auto 0;
 
-    padding: 25px 30px;
+    padding: 32px 40px;
 
     text-align: center;
 
-    border: 1px solid var(--border);
+    border: 1px solid rgba(255, 255, 255, .08);
 
-    border-radius: 15px;
+    border-radius: 20px;
 
-    background: rgba(16, 30, 48, .7);
+    background:
+        linear-gradient(
+            135deg,
+            rgba(16, 30, 48, .95),
+            rgba(12, 24, 40, .75)
+        );
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, .15);
 }
+
 
 .motivation-quote span {
     display: block;
@@ -1390,37 +1482,41 @@ footer {
 
     font-family: Georgia, serif;
 
-    font-size: 40px;
+    font-size: 50px;
 
-    line-height: .6;
+    line-height: .5;
 }
 
+
 .motivation-quote p {
-    margin: 15px 0 0;
+    margin: 18px 0 0;
 
     color: var(--text);
 
-    font-size: 14px;
+    font-size: 15px;
 
-    line-height: 1.7;
+    line-height: 1.8;
 
     font-style: italic;
 }
+
 
 /* =========================================================
    TABLET
    ========================================================= */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     .motivation-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .motivation-card {
-        height: 240px;
+        height: 330px;
     }
+
 }
+
 
 /* =========================================================
    MOBILE
@@ -1428,26 +1524,46 @@ footer {
 
 @media (max-width: 600px) {
 
+    .motivation-intro {
+        margin-bottom: 30px;
+    }
+
     .motivation-grid {
         grid-template-columns: 1fr;
-        gap: 15px;
+
+        gap: 18px;
     }
 
     .motivation-card {
-        height: 230px;
+        height: 300px;
+
+        border-radius: 18px;
     }
 
     .motivation-overlay {
-        left: 16px;
-        right: 16px;
-        bottom: 15px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
     }
 
     .motivation-overlay h3 {
-        font-size: 17px;
+        font-size: 20px;
+    }
+
+    .motivation-overlay p {
+        font-size: 12px;
     }
 
     .motivation-quote {
-        padding: 22px 18px;
+        margin-top: 40px;
+
+        padding: 25px 20px;
+
+        border-radius: 17px;
     }
+
+    .motivation-quote p {
+        font-size: 14px;
+    }
+
 }
